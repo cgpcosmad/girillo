@@ -9,10 +9,18 @@
     <name>girillo</name>
 
     <properties>
-        <platform.version> 1.5_r4
-            </platform.version>
+        <platform.version> 1.5_r4</platform.version>
     </properties>
 
+    <developers>
+        <developer>
+            <id>carlosGarcia</id>
+            <name>Carlos Garc&#195;&#173;a</name>
+            <email>cgpcosmad@gmail.com</email>
+            <url>http://carlos-garcia.es</url>
+        </developer>
+    </developers>
+    
     <dependencies>
         <dependency>
             <groupId>com.google.android</groupId>
