@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mail_smtp_host">smtp.gmail.com</string>
+	<string name="mail_smtp_port">465</string>
+    <string name="mail_smtp_auth">true</string>
+	<string name="mail_smtp_starttls_enable">true</string>
+    <string name="mail_smtp_user_name"></string>	
+	<string name="mail_smtp_user_password"></string>
+</resources>

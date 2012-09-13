@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+	<!-- Tab1 -->
+	<LinearLayout android:id="@+id/contactsTab" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:padding="4sp">
+		<TextView android:id="@+id/contactsSelected" android:text="@string/contactsSelected"  style="@style/basic"/>
+		<ListView android:choiceMode="multipleChoice" android:id="@+id/contacts"  style="@style/contacts"/>
+	</LinearLayout>
+	
+	<!-- Tab2 -->
+	<RelativeLayout android:id="@+id/emailTab" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:padding="4sp">
+		<TextView  android:id="@+id/attachTitle" android:text="@string/attachmentsPath" 
+				   android:layout_width="fill_parent" android:layout_height="wrap_content" android:textSize="14sp" 
+				   android:layout_alignParentTop="true" android:paddingBottom="6sp"/>
+	
+		
+		<RelativeLayout android:id="@+id/buttonsPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" >
+			<Button android:id="@+id/newImage"  android:text="@string/pictureNew"  android:drawableTop="@drawable/image"  android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true"/>
+			<Button android:id="@+id/newAudio"  android:text="@string/audioNew"    android:drawableTop="@drawable/audio"  android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/newImage"/>
+			<Button android:id="@+id/newVideo"  android:text="@string/videoNew"    android:drawableTop="@drawable/video"  android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true"/>			
+			<Button android:id="@+id/sendEmail" android:text="@string/sendEmail"   android:drawableTop="@drawable/email"  android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/newVideo"/>
+		</RelativeLayout>
+		
+		<ListView android:choiceMode="multipleChoice"  android:id="@+id/attachments" 
+					  android:saveEnabled="true" android:isScrollContainer="true"
+					  android:layout_width="fill_parent"  android:layout_height="wrap_content"   
+					  android:layout_above="@id/buttonsPanel" android:layout_below="@id/attachTitle" 
+					  android:layout_marginTop="6sp"  android:layout_marginBottom="6sp"/>				
+		
+	</RelativeLayout>					  
+</FrameLayout>

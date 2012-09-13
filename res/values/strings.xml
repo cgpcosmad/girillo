@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Girillo, still not Girillas?</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="undo">Undo</string>
+    <string name="clear">Clear</string>
+    <string name="copyEmailToMe">Send me an girillo copy</string>
+        
+    <string name="sdcard_notfound">External Memory (SDCARD) not found</string>
+    <string name="emailContent">Data</string>
+    <string name="emailServerSetup">Email Server</string>
+                
+    <string name="pictureNew">New Picture</string>
+    <string name="audioNew">Record Audio</string>
+    <string name="videoNew">Record Video</string>
+    
+    <string name="stopRecord">Stop Record</string>
+    <string name="sendRecord">Send Girillo</string>
+    <string name="startRecordVideo">Video</string>
+    <string name="sendEmail">Send Girillo</string>    
+    
+	<string name="subjectTitle">Subject:</string>
+	<string name="bodyTitle">Text:</string>
+	    
+	<string name="emailSubject">New Girillo</string>
+	<string name="emailBody">Hello, I send to you an attached girillo message</string>
+	<string name="emailPublicity">\n\nAdvice: Powered by <a href="http://www.girillo.com">http://www.girillo.com</a></string> 
+	<string name="sendEmailTitle">Send email</string>
+	<string name="audioTitle">Girillo without title</string>
+	<string name="sendAsCCO">Targets anonimous</string>
+	<string name="record_stopped">The girillo is finished</string>
+    <string name="aboutTitle">About</string>
+    <string name="aboutMessage">
+			Software developer by:\n
+			Carlos García Pérez (cgpcosmad@gmail.com)\n\n
+			        
+			I hope you find it useful.\n
+
+			Girillo name is because in the village of my mother, Galera in Granada (Spain), people often use the expression: girillo What? 
+			referring to: "What do you say?" :-)\n\n
+			
+			If you wish, you can make me a donation.\n
+
+			Regards.\n
+			http://www.girillo.com
+    </string>
+     
+    <string name="ok">Accept</string>
+	<string name="loadingContacts">Reading contacts...</string>
+	<string name="playSound">Play audio</string>
+	<string name="preferences">Preferences</string>
+	<string name="cancel">Cancel</string>
+	<string name="contactsSelected">Number of selected contacts:</string>
+	
+	
+	<string name="lbl_mail_from">Your email address</string>
+    <string name="lbl_mail_smtp_host">SMTP server address</string>
+	<string name="lbl_mail_smtp_port">SMTP server port</string>
+	<string name="lbl_mail_smtp_starttls_enable">Server required an secure (SSL/TSL) conection</string>
+    <string name="lbl_mail_smtp_user_name">Email user name</string>	
+	<string name="lbl_mail_smtp_user_password">Email user password</string>
+
+	<string name="sendingEmail">Sending Girillo</string>
+	<string name="waitPlease">Please wait...</string>
+	
+	<string name="sendEmailOK">The girillo has been sent successfully.</string>
+	<string name="sendEmailKO">There was an error sending the email.</string>
+	
+	<string name="noContactSelected">You have not selected any contact</string>
+	<string name="sendEmailConfirmation">It will send email to %1$d contacts, do you want to continue?</string>
+	<string name="deleteAttachmentConfirm">Do you really want to delete the selected file?</string>	
+	
+	<string name="contacts">Contacts</string>
+    <string name="files">Files</string>   
+    
+    <string name="attachmentsPath">Files are stored on \'sdcard/girillo\' directory of your memory card</string>   
+    <string name="emailSetupInvalid">You must setup your email account on preferences section.</string>
+    <string name="addText">append text</string>  
+    
+    <string name="recordVideoStart">Start record video</string>
+    <string name="recordVideoStop">Stop record video</string>
+</resources>

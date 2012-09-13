@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="14sp">
+
+	<LinearLayout  android:id="@+id/pref_title"  android:orientation="horizontal"     android:layout_width="fill_parent"   android:layout_height="wrap_content" android:layout_alignParentTop="true">
+		<ImageView android:src="@drawable/preferences" android:layout_width="wrap_content"  android:layout_height="wrap_content"/>
+		<TextView  android:text="@string/preferences"  android:layout_width="wrap_content"  android:layout_height="wrap_content"
+				   android:gravity="center_vertical"   android:textSize="24sp"/>	
+	</LinearLayout>
+
+	<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/pref_title">
+		<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<LinearLayout android:id="@+id/pref_content" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<TextView android:text="@string/lbl_mail_smtp_host"   style="@style/basic"/>
+				<EditText android:id="@+id/mail_smtp_host" style="@style/basic"/>
+				<TextView android:text="@string/lbl_mail_smtp_port"    style="@style/basic"/>
+				<EditText android:id="@+id/mail_smtp_port" style="@style/basic"  android:inputType="number"/>
+				<CheckBox android:id="@+id/mail_smtp_starttls_enable" android:text="@string/lbl_mail_smtp_starttls_enable" style="@style/basic"/>
+				<TextView android:text="@string/lbl_mail_smtp_user_name"    style="@style/basic"/>
+				<EditText android:id="@+id/mail_smtp_user_name" 		style="@style/basic"/>	
+				<TextView android:text="@string/lbl_mail_smtp_user_password"    style="@style/basic"/>
+				<EditText android:id="@+id/mail_smtp_user_password" 		style="@style/basic"  android:inputType="textPassword"/>
+
+			</LinearLayout>
+		
+			<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/pref_content" android:paddingTop="6sp">
+				<Button android:text="@string/cancel" android:id="@+id/ko" android:drawableTop="@drawable/exit"   android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true"/>
+				<Button android:text="@string/ok"	  android:id="@+id/ok" android:drawableTop="@drawable/accept" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true"/>
+			</RelativeLayout>
+		</RelativeLayout>
+	</ScrollView>
+	
+
+</RelativeLayout>

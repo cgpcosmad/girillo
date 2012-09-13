@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/contactsTab" android:orientation="vertical"  
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<TextView android:id="@+id/sendEmailDialogTitle"  		 android:textSize="16sp" android:textStyle="bold"	android:padding="6sp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+		<CheckBox android:id="@+id/sendEmailAddTextCheck" 	 	 android:text="@string/addText" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+		<CheckBox android:id="@+id/sendEmailDialogCheckCCO"  	 android:text="@string/sendAsCCO"  		android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+		<CheckBox android:id="@+id/sendEmailDialogCopyEmailToMe" android:text="@string/copyEmailToMe"    android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+		<EditText android:id="@+id/sendEmailDialogText"  		 android:minLines="3" android:singleLine="false"		android:layout_width="fill_parent" android:layout_height="wrap_content" android:visibility="gone"/>
+</LinearLayout>

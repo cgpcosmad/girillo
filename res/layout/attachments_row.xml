@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/row"  
+ 		  		android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingLeft="4sp">
+ 		  
+	<ImageView	 android:id="@+id/attachIcon"   									android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true"/>
+	<TextView    android:id="@+id/attachFile"    style="@style/attachFileName"		android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/attachIcon"/>
+	<ImageButton android:id="@+id/attachDelete"  android:src="@drawable/delete"   android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true"/>
+	<ImageButton android:id="@+id/attachPreview" android:src="@drawable/view"     android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/attachDelete"/>
+</RelativeLayout>
+
+
