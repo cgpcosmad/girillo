@@ -17,3 +17,9 @@ local.properties
 
 # maven target directory
 target/
+
+.DS_Store
+**/.DS_Store
+
+.idea
+
