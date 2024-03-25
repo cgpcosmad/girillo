@@ -1,8 +1,9 @@
 girillo
 =======
 
-Girillo (Android Application)
+Girillo an Android application similar to Whatsapp (Even Girillo was born earlier)
 
-More info and video on:
-http://www.carlos-garcia.es/misproyectos/girillo/girillo.php
+![Girillo](https://github.com/cgpcosmad/girillo/blob/master/girillo.jpg)
+
+
 
